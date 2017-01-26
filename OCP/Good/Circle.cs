@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OCP
+namespace OCP.Good
 {
-    class Program
+    class Circle : Shape
     {
-        static void Main(string[] args)
+        public override void Draw()
         {
-            Good.DrawAllShapes.Draw();
+            Console.WriteLine("this is Circle");
         }
     }
 }

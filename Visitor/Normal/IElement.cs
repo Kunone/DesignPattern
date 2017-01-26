@@ -4,13 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OCP
+namespace Visitor.Normal
 {
-    class Program
+    interface IElement
     {
-        static void Main(string[] args)
-        {
-            Good.DrawAllShapes.Draw();
-        }
+        void Accept(IVisitor visitor); // first dispatch
     }
 }

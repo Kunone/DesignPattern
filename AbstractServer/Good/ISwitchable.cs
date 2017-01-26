@@ -4,13 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OCP
+namespace AbstractServer.Good
 {
-    class Program
+    interface ISwitchable
     {
-        static void Main(string[] args)
-        {
-            Good.DrawAllShapes.Draw();
-        }
+        void TurnOn();
+        void TurnOff();
     }
 }

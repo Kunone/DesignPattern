@@ -4,13 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OCP
+namespace OCP.Bad
 {
-    class Program
+    class DrawAllShapes
     {
-        static void Main(string[] args)
-        {
-            Good.DrawAllShapes.Draw();
-        }
     }
 }

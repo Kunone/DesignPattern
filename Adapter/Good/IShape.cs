@@ -4,13 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OCP
+namespace Adapter.Good
 {
-    class Program
+    interface IShape
     {
-        static void Main(string[] args)
-        {
-            Good.DrawAllShapes.Draw();
-        }
+        void Draw(int x1, int y1, int x2, int y2);
     }
 }

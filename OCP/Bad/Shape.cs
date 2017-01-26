@@ -4,13 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OCP
+namespace OCP.Bad
 {
-    class Program
+    struct Shape
     {
-        static void Main(string[] args)
-        {
-            Good.DrawAllShapes.Draw();
-        }
+        ShapeType itsType;
+    }
+
+    enum ShapeType
+    {
+        Circle,
+        Square
     }
 }

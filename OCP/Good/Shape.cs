@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OCP
+namespace OCP.Good
 {
-    class Program
+    abstract class Shape
     {
-        static void Main(string[] args)
+        public virtual void Draw()
         {
-            Good.DrawAllShapes.Draw();
+            Console.WriteLine("this is base class Shape");
         }
     }
 }
